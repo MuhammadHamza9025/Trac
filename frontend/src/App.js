@@ -12,7 +12,6 @@ function App() {
         <Routes>
           <Route path='/course/:id' element={<Pricing></Pricing>}></Route>
           <Route path='/' element={<Courses></Courses>}></Route>
-          {/* <Route path='/course/:id' element={<Courses></Courses>}></Route> */}
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
