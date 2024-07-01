@@ -4,9 +4,9 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 
 const Footer = () => {
     return (
-        <div className='bg-black p-2 flex justify-between  items-center mt-10'>
-            <div> <img src={logo} alt="" className='h-[50px]' /></div>
-            <div className='text-white'>
+        <div className='bg-black p-2 flex justify-between  items-center '>
+            <div> <img src={logo} alt="" className='sm:h-[50px] h-[25px]' /></div>
+            <div className='text-white text-xs'>
                 &copy; CopyRights.All Rights Reserved
             </div>
             <div >
